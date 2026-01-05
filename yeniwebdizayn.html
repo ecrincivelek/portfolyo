@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(239, 170, 214);
+            color: #333;
+        }
+
+        /* Üst Menü */
+        header {
+            background-color: #ffffff;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 100%;
+            top: 0;
+        }
+
+        header a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #010055;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #cbbaff;
+        }
+
+        main {
+            padding: 100px 40px;
+        }
+
+        /* Kart yapısı */
+        .card {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+        }
+
+        /* Hakkımda alanı */
+        .about-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .about-text {
+            flex: 2;
+        }
+
+        .about-box {
+            flex: 1;
+            text-align: center;
+            color: #777;
+        }
+
+        /* Yetkinlikler */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e4e6eb;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+        }
+
+        footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #0a66c2;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h3>Ecrin Civelek</h3>
+    <nav>
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#yetkinlikler">Yetkinlikler</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- Hakkımda -->
+    <section id="hakkimda" class="card">
+        <h2>Hakkımda</h2>
+
+        <div class="about-container">
+            <div class="about-text">
+                <p>
+                    Merhaba, ben Ecrin Civelek. İstanbul Topkapı Üniversitesi Yönetim Bilişim Sistemleri 3. sınıf öğrencisiyim. YBS Kulübü’nde Genel Sekreter olarak görev alıyor, ekip çalışması ve organizasyon süreçlerinde aktif rol üstleniyorum. Dijital pazarlama ve proje yöneticiliği alanında kendimi geliştirmeyi hedefliyor; sorumluluk sahibi, öğrenmeye açık ve çözüm odaklı bir yapıya sahibim.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Yetkinlikler -->
+    <section id="yetkinlikler" class="card">
+        <h2>Yetkinlikler</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">C Programlama</div>
+            <div class="skill">C#</div>
+            <div class="skill">MySQL</div>
+            <div class="skill">Microsoft Excel</div>
+            <div class="skill">Canva</div>
+            <div class="skill">CapCut</div>
+            <div class="skill">Sosyal Medya Yönetimi</div>
+            <div class="skill">Takım Çalışması</div>
+            <div class="skill">Analitik Düşünme</div>
+        </div>
+    </section>
+
+    <!-- İletişim -->
+    <section id="iletisim" class="card">
+        <h2>İletişim</h2>
+        <p><strong>Telefon:</strong> 0546 238 46 86</p>
+        <p><strong>E-posta:</strong> ecrincivelek61@gmail.com</p>
+    </section>
+
+</main>
+
+<footer>
+    <p></p>
+    <a href="http://linkedin.com/in/ecrincivelek" target="_blank">LinkedIn</a>
+    <a href="https://github.com/ecrincivelek" target="_blank">GitHub</a>
+</footer>
+
+</body>
+</html>
+</body>
+</html>
